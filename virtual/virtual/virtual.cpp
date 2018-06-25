@@ -30,6 +30,6 @@ int main()
 	CBase obj1;
 	obj1.display();
 	CDervid obj2;
-	obj2.display();
+	obj2.CBase::display();
     return 0;
 }
